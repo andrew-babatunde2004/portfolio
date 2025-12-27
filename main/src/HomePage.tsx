@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
-import './App.css'
+import './HomePage.css'
+import { Route } from 'react-router'
+
 
 function App() {
   const [count, setCount] = useState(0)
