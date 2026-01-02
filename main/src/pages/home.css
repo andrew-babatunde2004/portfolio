@@ -1,0 +1,40 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgb(0, 0, 0);
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.name {
+  position: relative;
+  right:30vw;
+}
+
+.subtitle{
+  position: relative;
+  left:6.8vw;
+  text-align: left;
+  
+}
+
+.subtitle-enrolled{
+  text-decoration: underline;
+}
+
+.georgia{
+  position: absolute;
+  transform: scale(.40);
+  top:4vh;
+  right:85vw;
+}
+
+.text {
+  padding: 20px;
+}
+
+.card {
+  padding: 2em;
+}
