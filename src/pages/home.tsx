@@ -1,11 +1,14 @@
 import './home.css'
 import georgia from '/Georgia.svg';
+import React, {useState} from 'react';
 
 function home() {
+  const [isDark, setIsDark] = useState(true);
 
   return (
-<>
-    <div className='relative flex left-[14vh] gap-[20vh] font-sans items-center  '>
+
+<div data-theme={isDark ? "dark" : "light"}>
+    <div className='relative flex left-[14vh] gap-[20vh] font-sans items-center'>
       <h1>Andrew Babatunde</h1>
       <a href='./music' >
         <p className=' text-white text-2xl font-bold underline'>music</p>
@@ -32,7 +35,7 @@ function home() {
       <img className='absolute top-[10vh] right-[82vw] transform scale-50'src={georgia} />
 </a>
       </div>
-    </>
+   </div>
   );
 };
 
